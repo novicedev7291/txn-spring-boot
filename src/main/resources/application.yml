@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.17.0.1:3307/txn-schema
+    username: root
+    password: root@981
+  jpa:
+    open-in-view: false
+
+flyway:
+  migrations.locations: classpath:db/migrations
